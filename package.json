@@ -1,7 +1,9 @@
 {
   "name": "@rev-robotics/classless-semver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simplified version of node-semver that uses plain objects (enabling safe serialization)",
+  "license": "ISC",
+  "repository": "https://github.com/REVrobotics/classless-semver",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
