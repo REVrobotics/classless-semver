@@ -1,8 +1,17 @@
 {
-  "name": "classless-semver",
+  "name": "@rev-robotics/classless-semver",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.ts",
+  "description": "Simplified version of node-semver that uses plain objects (enabling safe serialization)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn run build"
+  },
   "devDependencies": {
     "@types/node": "^20.14.11",
     "typescript": "^5.5.3"
