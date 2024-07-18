@@ -1,5 +1,4 @@
 export const debug = (
-    true ||
     typeof process === 'object' &&
     process.env &&
     process.env.NODE_DEBUG &&
