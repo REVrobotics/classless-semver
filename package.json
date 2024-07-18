@@ -1,0 +1,12 @@
+{
+  "name": "classless-semver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "packageManager": "yarn@4.3.1"
+}
