@@ -39,7 +39,7 @@ export function parse(version: string): ClasslessSemVer {
         throw new TypeError('Invalid patch version')
     }
 
-    let prerelease: ReadonlyArray<string | number>;
+    let prerelease:(string | number)[];
     // numberify any prerelease numeric ids
     if (!m[4]) {
         prerelease = []
